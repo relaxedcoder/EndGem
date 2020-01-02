@@ -1,5 +1,5 @@
 # EndGem
-IMG Winter Assignment
+## IMG Winter Assignment
 
 Welcome to EndGem!
 
@@ -7,7 +7,7 @@ I have made a fully functional website for maintaining the course material in va
 
 Note: This is a responsive website, so you will have a trouble-free experience even if you run on your phone/tablet.
 
-Instructions:-
+**Instructions:-**
 
 1. If you don't have XAMPP installed, you can download it from here - https://www.apachefriends.org/download.html
 2. After installing xampp, just paste the project folder in the 'htdocs' directory in the xampp folder.
@@ -18,4 +18,4 @@ Instructions:-
 7. As one downloads a file, the file is downloaded on the computer and the number of downloads increases by one.
 8. The leaderboard also updates spontaneously.
 
-Created by - Devjit Menghani(18119010)
+***Created by - Devjit Menghani(18119010)***
