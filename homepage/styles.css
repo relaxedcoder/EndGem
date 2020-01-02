@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+#top {
+	position: fixed;
+  left: 0;
+  right: 0;
+  height: 15%;
+  top: 0;
+  background-color: #f0f0f0;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+#course {
+  position: absolute;
+  left: 20%;
+  height: 100%;
+  width: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+#addmenu {
+  position: absolute;
+  left: 70%;
+  background-color: #f0f0f0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#add {
+  height: 35px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#menu {
+  outline: none;
+  margin-right: 15px;
+  height: 30%;
+}
+
+#bottom {
+  position: fixed;
+  padding-top: 5%;
+  top: 15%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 5%;
+  overflow-y: auto;
+  z-index: -1;
+}
+
+.file {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 6px 4px -4px grey;
+  -moz-box-shadow: 0 6px 4px -4px grey;
+  box-shadow: 0 6px 4px -4px grey;
+}
+
+.filetype {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: #f0f0f0;
+  width: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titledate {
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  background-color: #f0f0f0;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.td {
+  position: absolute;
+  left: 45%;
+  height: 100%;
+  background-color: #f0f0f0;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#gem {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+  margin-bottom: 10px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gemfiletype {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: inherit;
+  width: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gemtitledate {
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  background-color: inherit;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  color: #f0f0f0;
+}
+
+#gemtd {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  background-color: inherit;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #f0f0f0;
+}
+
+.download {
+  position: absolute;
+  left: 85%;
+  height: 100%;
+  background-color: #f0f0f0;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #f0f0f0;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #c4c4c4 transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #c4c4c4 transparent;
+  top: 7px;
+}
+
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: #f0f0f0;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: #c4c4c4;
+}
+
+#leaderboard {
+  display: none;
+  background-color: black;
+  opacity: 0.9;
+  position: fixed;
+  top: 15%;
+  right: 0;
+  width: 30%;
+  height: 85%;
+  overflow-y: scroll;
+  min-width: 300px;
+}
