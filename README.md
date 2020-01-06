@@ -17,8 +17,8 @@ _Note: This is a responsive website, so you will have a trouble-free experience 
 
 ![Table Structure](structure.png)
 
-6. Go to your browser and go to the link - http://localhost/EndGem/homepage/homepage.html.
-7. You can add course material in specific courses. I have preset the courses 1, 2, 3 and 4.
+6. Go to your browser and go to the link - http://localhost/EndGem/homepage/homepage.html. This is the homepage of the website.
+7. To add course material, click on the "+" icon on the top-right corner of the page. You will be taken to the add material page. Here you  can add course material in specific courses. I have preset the courses 1, 2, 3 and 4.
 8. You can go to the homepage by clicking the logo. You can select the course using the drop-down menu. You will see the uploaded files there.
 9. As one downloads a file, the file is downloaded on the computer and the number of downloads increases by one.
 10. The leaderboard also updates spontaneously.
