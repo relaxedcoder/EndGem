@@ -15,7 +15,7 @@ _Note: This is a responsive website, so you will have a trouble-free experience 
 4. Go to the link http://localhost/phpmyadmin/. Create a database by the name "endgemdb".
 5. Create four tables, namely "course1", "course2", "course3" and "course4" one at a time according to the structure given in the following image:
 
-![Table Structure](structure1.png)
+![Table Structure](structure.png)
 
 6. Go to your browser and go to the link - http://localhost/EndGem/homepage/homepage.html.
 7. You can add course material in specific courses. I have preset the courses 1, 2, 3 and 4.
