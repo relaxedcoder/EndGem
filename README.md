@@ -20,7 +20,8 @@ _Note: This is a responsive website, so you will have a trouble-free experience 
 6. Go to your browser and go to the link - http://localhost/EndGem/homepage/homepage.html. This is the homepage of the website.
 7. To add course material, click on the "+" icon on the top-right corner of the page. You will be taken to the add material page. Here you  can add course material in specific courses. I have preset the courses 1, 2, 3 and 4. You are also required to give a name to the file being uploaded.
 8. You can go to the homepage by clicking on the logo on the top-left corner of the page. On the homepage, you can select the course using the drop-down menu. You will see the uploaded files there.
-9. As one downloads a file, the file is downloaded on the computer and the number of downloads increases by one and the leaderboard updates spontaneously.
+9. As one downloads a file, the file is downloaded on the computer and the number of downloads increases by one.
+The leaderboard updates spontaneously.
 10. The leaderboard(TOP GEMS) can be accessed by clicking on the "☰" icon on the top-right corner of the page.
 
 ***Created by - Devjit Menghani(18119010)***
